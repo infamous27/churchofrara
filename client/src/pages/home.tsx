@@ -23,14 +23,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <span className="block text-primary font-sans text-sm md:text-base tracking-[0.5em] uppercase mb-6 drop-shadow-lg">
-            Est. 2026
-          </span>
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 tracking-wide drop-shadow-2xl leading-none">
-            WORSHIP<br />THE<br />DIVINE
+          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 tracking-wide drop-shadow-2xl leading-tight uppercase">
+            WELCOME TO THE ABODE OF<br />HIGH PRIESTESS RARA
           </h1>
-          <p className="font-serif text-xl md:text-2xl text-white/80 max-w-2xl mx-auto leading-relaxed mb-12 italic">
-            "In the silence of submission, you find your purpose. Welcome to the sanctuary of the Church of Rara."
+          <p className="font-serif text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed mb-12 italic">
+            "A sanctified place where blessings are sought from the Divine High Priestess Rara, and sins are set forth for her discernment."
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">

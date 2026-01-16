@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const links = [
     { href: "/", label: "Sanctuary" },
-    { href: "/about", label: "Philosophy" },
+    { href: "/about", label: "About Me" },
     { href: "/commandments", label: "Commandments" },
     { href: "/links", label: "Communion" },
   ];
@@ -21,8 +21,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-background/80 backdrop-blur-md">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/">
-            <a className="text-2xl font-display font-bold tracking-[0.2em] text-white hover:text-primary transition-colors duration-500">
-              CHURCH OF RARA
+            <a className="text-2xl font-display font-bold tracking-[0.2em] text-white hover:text-primary transition-colors duration-500 uppercase">
+              Church of Rara
             </a>
           </Link>
 
@@ -98,18 +98,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Footer */}
       <footer className="border-t border-white/5 py-12 bg-black">
         <div className="container mx-auto px-6 text-center">
-          <h3 className="font-display text-2xl text-white/90 mb-4 tracking-[0.2em]">CHURCH OF RARA</h3>
+          <h3 className="font-display text-2xl text-white/90 mb-4 tracking-[0.2em] uppercase">Church of Rara</h3>
           <p className="font-sans text-xs text-muted-foreground tracking-widest uppercase mb-8">
             Bow down to the aesthetic.
           </p>
           <div className="flex justify-center gap-6 mb-8">
-            {/* Social Icons Placeholder */}
             <div className="w-2 h-2 rounded-full bg-white/20" />
             <div className="w-2 h-2 rounded-full bg-white/20" />
             <div className="w-2 h-2 rounded-full bg-white/20" />
           </div>
-          <p className="text-[10px] text-white/20 font-sans tracking-wider">
-            © {new Date().getFullYear()} ALL RIGHTS RESERVED.
+          <p className="text-[10px] text-white/20 font-sans tracking-wider uppercase">
+            ALL RIGHTS RESERVED.
           </p>
         </div>
       </footer>
