@@ -47,7 +47,7 @@ export default function About() {
                <img 
                  src={raraImg} 
                  alt="High Priestess Rara" 
-                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                 className="w-full h-full object-cover transition-all duration-1000"
                />
                <div className="absolute inset-0 border border-white/5 m-4 pointer-events-none" />
              </div>
