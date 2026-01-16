@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Twitter, Gift, FileText } from "lucide-react";
+import avatarImg from "@assets/IMG_2025_08_03-5_19_47_9020_PM_18743612_1768557723428.jpg";
 
 const links = [
   { icon: Twitter, label: "Twitter / X", href: "https://x.com/churchofrara", sub: "Follow the gospel" },
@@ -17,8 +18,12 @@ export default function Links() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <div className="w-32 h-32 bg-neutral-900 rounded-full mx-auto mb-6 border-2 border-primary/30 flex items-center justify-center overflow-hidden shadow-2xl">
-             <span className="font-display text-5xl text-white/80">R</span>
+          <div className="w-32 h-32 bg-neutral-900 rounded-full mx-auto mb-6 border-2 border-primary/30 flex items-center justify-center overflow-hidden shadow-2xl relative">
+             <img 
+               src={avatarImg} 
+               alt="High Priestess Rara" 
+               className="w-full h-full object-cover object-[center_20%] scale-150"
+             />
           </div>
           <h1 className="font-display text-4xl text-white tracking-widest mb-2 uppercase">Communion</h1>
           <p className="font-serif text-white/60 italic">Sacred channels of the High Priestess</p>
